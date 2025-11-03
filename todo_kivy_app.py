@@ -128,7 +128,7 @@ class MainLayout(BoxLayout):
     def create_task_widget(self, task_data):
         task_widget = TaskWidget(task_data=task_data)
         
-        self.task_list_layout.add_widget(task_widget, index = 0)
+        self.task_list_layout.add_widget(task_widget, index = len(self.task_list_layout.children))
 
 class TodoKivyApp(App):
     def build(self):
@@ -147,7 +147,7 @@ class TodoKivyApp(App):
     def on_stop(self):
         print("App fechando! Salvando tarefas...")
         data_to_save = []
-        for task_widget in reversed(self.main_layout.task_list_layout.children):
+        for task_widget in self.main_layout.task_list_layout.children:
             if isinstance(task_widget, TaskWidget):
                 data_to_save.append({
                     "titulo": task_widget.task_text,
