@@ -53,7 +53,7 @@ def remover_tarefa(tarefas):
     mostrar_tarefas(tarefas)
     if tarefas:
         try:
-            num = int(input("Digite o numero da tarefa para remover:"))
+            num = int(input("Digite o numero da tarefa para remover: "))
             if 1 <= num <= len(tarefas):
                 tarefa = tarefas.pop(num-1)
                 print(f"Tarefa '{tarefa['titulo']}' removida!\n")
