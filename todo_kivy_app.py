@@ -1,3 +1,6 @@
+# Cores usadas no app retiradas de:
+# https://rgbacolorpicker.com
+
 import os
 os.environ['KIVY_GL_BACKEND'] = 'angle_sdl2'
 
