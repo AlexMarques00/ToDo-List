@@ -1,10 +1,26 @@
 [
     {
-        "titulo": "hfdhd",
+        "titulo": "deixar o enter fazer o mesmo do botao adicionar",
         "feita": false
     },
     {
-        "titulo": "sgffgf",
-        "feita": true
+        "titulo": "adicionar cursor de onde esta digitando",
+        "feita": false
+    },
+    {
+        "titulo": "permitir edi\u00e7\u00e3o de tarefa",
+        "feita": false
+    },
+    {
+        "titulo": "refazer design do app",
+        "feita": false
+    },
+    {
+        "titulo": "pop up para conferir se quer deletar mesmo a tarefa",
+        "feita": false
+    },
+    {
+        "titulo": "add botao de ordenar por tempo(mais recente primeiro ou mais antiga primeiro)",
+        "feita": false
     }
 ]
