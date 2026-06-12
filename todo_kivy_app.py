@@ -19,7 +19,7 @@ from kivy.metrics import dp
 kivy.require('2.1.0')
 
 try:
-    from todo_terminal_json import carregar_tarefas, salvar_tarefas, ARQUIVO_JSON
+    from todo_functions import carregar_tarefas, salvar_tarefas, ARQUIVO_JSON
 except ImportError:
     print("ERRO: Não foi possível encontrar o arquivo 'todo_terminal_json.py'")
     def carregar_tarefas(): return []
